@@ -12,6 +12,7 @@ namespace TimeAlertBot
     {
         public static void Main(string[] args)
         {
+            string token = FileAction.Read("token.swn");
         }
     }
 }
